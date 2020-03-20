@@ -35,7 +35,7 @@ class Animal
     puts "now state is #{@state} "
   end
 
-  def self.show_curent_counts
+  def self.show_current_counts
     puts "Woke up animals count: #{@@count_of__wake_up_animals}\nSleep animals count: #{@@count_of_sleep_animals}"
   end
 end
